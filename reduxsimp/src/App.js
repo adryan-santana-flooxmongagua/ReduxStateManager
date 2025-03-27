@@ -4,11 +4,29 @@ import Card from './components/Card';
 
 function App() {
   return (
-    <div className="App">
+<div className="App">
       <h1>Exercício React-Redux (Simples)</h1>
-     <Card></Card>
-     <Card></Card>
-     <Card></Card>
+      <div className="linha">
+        <Card title="Card 1 " red>
+          x
+        </Card>
+   
+      <Card title="Card 2" purple>
+          y
+        </Card>
+        
+      </div>
+      <div className="linha" >
+      <Card title="Card 3" green>
+          y
+        </Card>
+        
+    
+      <Card title="Card 4" blue>
+          y
+        </Card>
+        
+      </div>
     </div>
   );
 }
